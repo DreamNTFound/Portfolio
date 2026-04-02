@@ -1,5 +1,9 @@
 import ProjectCard from "../components/ProjectCard";
 import FadeInOnScroll from "../components/FadeInOnScroll";
+import aclcStock from "../assets/image/aclc-stock-system.png";
+import afSystem from "../assets/image/af-system.png";
+import landingPage from "../assets/image/landing-page.png";
+import sonicWave from "../assets/image/sonicwave-player.png";
 
 export default function Projects() {
   return (
@@ -20,7 +24,7 @@ export default function Projects() {
               <ProjectCard
                 title="ACLC Stock System"
                 description="A web-based inventory management system interface that allows to manage and track stock efficiently. Built with a focus on usability and structured data presentation."
-                imageUrl="src/assets/image/aclc-stock-system.png"
+                imageUrl={aclcStock}
                 projectUrl="https://aclc-stock-system.netlify.app"
                 number="01"
                 tags={[
@@ -36,7 +40,7 @@ export default function Projects() {
               <ProjectCard
                 title="AF System"
                 description="An interactive system interface designed to handle user inputs and display structured dynamically using JavaScript."
-                imageUrl="src/assets/image/af-system.png"
+                imageUrl={afSystem}
                 projectUrl="https://af-system.netlify.app"
                 number="02"
                 tags={["React", "JavaScript", "Tailwind CSS", "UI Design"]}
@@ -46,7 +50,7 @@ export default function Projects() {
               <ProjectCard
                 title="SonicWave Player"
                 description="A custom-built music player with interactive controls, dynamic UI updates, and a clean user experience."
-                imageUrl="src/assets/image/sonicwave-player.png"
+                imageUrl={sonicWave}
                 projectUrl="https://sonicwave-player.netlify.app"
                 number="03"
                 tags={["React", "JavaScript", "Tailwind CSS", "Audio API"]}
@@ -56,7 +60,7 @@ export default function Projects() {
               <ProjectCard
                 title="DreamNTFound Landing Page"
                 description="A responsive landing page designed with modern layout techniques, focusing on visual hierarchy and user engagement."
-                imageUrl="src/assets/image/landing-page.png"
+                imageUrl={landingPage}
                 projectUrl="https://dreamntfound-landing.netlify.app"
                 number="04"
                 tags={[
