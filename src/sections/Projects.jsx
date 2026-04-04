@@ -41,7 +41,7 @@ export default function Projects() {
                 title="AF System"
                 description="An interactive system interface designed to handle user inputs and display structured dynamically using JavaScript."
                 imageUrl={afSystem}
-                projectUrl="https://af-system.netlify.app"
+                projectUrl="https://aclc-feedback-system.netlify.app"
                 number="02"
                 tags={["React", "JavaScript", "Tailwind CSS", "UI Design"]}
               />
@@ -61,7 +61,7 @@ export default function Projects() {
                 title="DreamNTFound Landing Page"
                 description="A responsive landing page designed with modern layout techniques, focusing on visual hierarchy and user engagement."
                 imageUrl={landingPage}
-                projectUrl="https://dreamntfound-landing.netlify.app"
+                projectUrl="https://dreamntfound.github.io/landing-page/"
                 number="04"
                 tags={[
                   "HTML",
